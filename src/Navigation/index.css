@@ -1,0 +1,33 @@
+.icon {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.item-container{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 400px;
+    list-style: none;
+    color: rgb(78, 78, 77);
+    background-color: rgb(246, 246, 246);
+    padding: 20px 50px;
+    margin: 0;
+}
+.item-title{
+    display: inline-block;
+    width: 120px;
+}
+.content-view{
+    display: none;
+    width: 400px;
+    height: 680px;
+    overflow: auto;
+}
+.active{
+    display: inline-block;
+}
